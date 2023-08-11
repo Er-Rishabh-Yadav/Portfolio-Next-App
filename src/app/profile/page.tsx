@@ -1,17 +1,13 @@
 // here we define the porfile where we can see the my information projects and other else
+import Header from "./header/header";
 export default function MyProfile() {
     return (
-        <div className="bg-slate-800 min-h-screen ">
-            
-        <header className="py-8 bg-gray-900 ">
-        <div className="container mx-auto flex flex-col justify-items-center items-center">
-            <h1 className="bg-yellow-500 rounded-md text-white text-center font-bold m-3 p-2 font-sans tracking-widest text-5xl">Rishabh Yadav</h1>
-            {/* //center this line */}
-            <h1 className="text-slate-400 text-center font-semibold  font-sans  text-lg">Full Stack Developer</h1>
-        </div>
-        </header>
+        <div>
 
-    <section className="py-12 mx-2">
+        <Header/>
+
+        <div className="bg-slate-800 min-h-screen">
+    <section className="py-12  mx-2">
         <div className="container mx-auto">
             <h2 className="p-4 rounded-xl  bg-green-600 inline-block text-white tracking-widest text-2xl font-semibold mb-4">Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -58,7 +54,7 @@ robust and efficient tool to stay organized and focused on their goals
     </section>
 
 
-<section className="py-12">
+    <section className="py-12">
     <div className="container mx-auto">
         <h2 className="text-2xl font-semibold my-4 p-4 rounded-xl  bg-green-600 text-white inline tracking-widest">Technical Skills</h2>
         <ul className="list-disc  list-inside my-7 text-white">
@@ -71,7 +67,7 @@ robust and efficient tool to stay organized and focused on their goals
             {/* <!-- Add more skills here --> */}
         </ul>
     </div>
-</section>
+    </section>
 
 
 
@@ -167,6 +163,7 @@ robust and efficient tool to stay organized and focused on their goals
         </div>
     </footer>
 
+        </div>
         </div>
     );
 }

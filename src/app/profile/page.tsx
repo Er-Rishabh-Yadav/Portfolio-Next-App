@@ -7,7 +7,7 @@ export default function MyProfile() {
         <Header/>
 
         <div className="bg-slate-800 min-h-screen">
-    <section className="py-12  mx-2">
+        <section className="py-12  mx-4">
         <div className="container mx-auto">
             <h2 className="p-4 rounded-xl  bg-green-600 inline-block text-white tracking-widest text-2xl font-semibold mb-4">Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -54,7 +54,7 @@ robust and efficient tool to stay organized and focused on their goals
     </section>
 
 
-    <section className="py-12">
+    <section className="py-12 mx-4">
     <div className="container mx-auto">
         <h2 className="text-2xl font-semibold my-4 p-4 rounded-xl  bg-green-600 text-white inline tracking-widest">Technical Skills</h2>
         <ul className="list-disc  list-inside my-7 text-white">
@@ -71,8 +71,8 @@ robust and efficient tool to stay organized and focused on their goals
 
 
 
-<section className="py-12 bg-gray-900 ">
-    <div className="container mx-auto">
+<section className="py-12  bg-gray-900 ">
+    <div className="container mx-4">
         <h2 className="p-4 rounded-xl  bg-green-600 inline-block text-white tracking-widest text-2xl font-semibold mb-4">Work Experience</h2>
         <div className="bg-gray-800 p-6 rounded-lg shadow-md">
             <div className="flex flex-col md:flex-row justify-between items-start">
@@ -120,8 +120,8 @@ robust and efficient tool to stay organized and focused on their goals
     </div>
 </section>
 
-<section className="py-12 bg-gray-900">
-    <div className="container mx-auto">
+<section className="py-12  bg-gray-900">
+    <div className="container mx-4">
         <h2 className="p-4 rounded-xl  bg-green-600 inline-block text-white tracking-widest text-2xl font-semibold mb-4">Contact Details</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-gray-800 p-6 rounded-lg shadow-md">
@@ -142,7 +142,7 @@ robust and efficient tool to stay organized and focused on their goals
 </section>
 
 
-<section className="py-12">
+<section className="py-12 mx-4">
     <div className="container mx-auto">
         <h2 className="p-4 rounded-xl  bg-green-600 inline-block text-white tracking-widest text-2xl font-semibold mb-4">Download Resume</h2>
         <div className="bg-gray-700 p-6 rounded-lg shadow-md">
